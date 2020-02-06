@@ -1,0 +1,114 @@
+/* Coded By Semaj Sullivan */
+
+/* General Changes */
+
+p,nav {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-size: 2em;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 4em;
+  font-weight: bold;
+}
+.row {
+  margin-left: 0;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+/* ==== NAVBAR ==== */
+/* Changes the Navbar */
+nav{
+  width: 100vw;
+  height: 23vh;
+  padding: 5vh 0vw;
+  background-color: #fff;
+}
+
+.nav-wrap {
+  height:20vh;
+  z-index: 1030;
+  margin-top: 10vh;
+}
+
+nav a{
+  padding: 0vw 4vw 0vw 4vw;
+  font-size: 3em;
+  color: #777;
+  font-weight: lighter;
+}
+
+.name {
+  background-color: #FFF;
+  padding: 4.5vh 0;
+}
+.name a{
+  text-align: right;
+  font-family: 'Pacifico', cursive;
+  font-size: 4em;
+  font-weight: bold;
+  color: #333
+  }
+
+
+a{
+  text-decoration-line: none;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration-line: none;
+  color: #000;
+  transition: 1s;
+}
+
+
+/* === WORK ==== */
+/* Changes Row Sizes */
+.test {
+  width: 100vw;
+  height: 38vh;
+  /* box-shadow: 1.5vh .5vh rgba(114, 140, 168, 0.5); */
+}
+
+/* Creates Boxes Within Work Row */
+
+.yht img{
+  height: 100%;
+  width: 100%;
+}
+
+.tsj{
+  background-color: #9EC2E8;
+}
+.tsj img{
+  width: 100%;
+  height: 100%;
+  padding: 6vw;
+}
+
+.cef {
+  background-color: #9EC2E8;
+}
+
+.cef img{
+  width: 100%;
+  height: 100%;
+  padding: 5vw 2vw 5vw 6vw;
+}
+
+/* ==== About ==== */
+/* General Changes */
+#about {
+  width: 100vw;
+  height: 70vh;
+  margin-top: 20vh;
+  background-color: 
+}
