@@ -2,6 +2,9 @@
 
 /* General Changes */
 
+html, body,{
+  width: 100vw;
+}
 p,nav {
   font-family: 'Poppins', sans-serif;
 }
@@ -22,10 +25,6 @@ h1 {
 .container {
   margin: 0;
   padding: 0;
-  max-width: 100%;
-}
-
-.col-lg-8 {
   max-width: 100%;
 }
 
@@ -130,10 +129,14 @@ a:hover{
 
 .about-image {
   position: relative;
+  overflow: hidden;
+  padding: 0;
+  height: 100vh;
 }
 
 .bottom {
   position: relative;
   bottom: 30%;
   left: 9%;
+
 }
