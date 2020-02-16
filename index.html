@@ -11,22 +11,22 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="nav-wrap">
-      <nav class="fixed-top col-lg-12">
-      <div class="container">
-        <div class="row">
-            <a href="#work">Work</a>
-            <a href="#about">About</a>
-            <a href="https://docs.google.com/file/d/1fEWtUUkhEzKKxIwP-ALnX0hItvkK1RHpIZz6iHpcQ0U/view" target="_blank">Resume</a>
-          </div>
-        </div>
-    <div class="container fixed-top">
-      <div class="name">
-        <a href=#>Semaj Sullivan</a>
-      </div>
-    </div>
-    </nav>
-  </div>
+    <div class="wrap">
+      <nav class="navbar fixed-top">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://docs.google.com/file/d/1fEWtUUkhEzKKxIwP-ALnX0hItvkK1RHpIZz6iHpcQ0U/view" target="_blank">Resume</a>
+          </li>
+        </ul>
+          <a class="navbar-brand" href="#">Semaj Sullivan</a>
+        </nav>
+
 <div id="work" class="container">
   <div class="row box">
     <div class="col testBox tsj">
@@ -55,21 +55,42 @@
 
 <div id="about" class="container">
   <div class="row">
-    <div class="col-6 text-center">
+    <div class="about-bio col-6 text-center">
       <h1>Hey there, I’m Semaj Sullivan!</h1>
       <p>
-        I am currently a student at Rutgers University. I plan to obtain my MBA in Business Management.I know it seems a bit out of left field considering my major, but I discovered my hobby of web design and development in August 2018 and have been working at it since.
+        I am currently a student at Rutgers University. I plan to obtain my MBA in Business Management. I know it seems a bit out of left field considering my major, but I discovered my hobby of web design and development in August 2018 and have been working at it since.
       </p>
       </div>
-      <div class= "about-image col-6 top">
+      <div class= "about-image col-4 top offset-1">
         <img src="about-image.png" />
       <div class="bottom">
         <img src="about-image.png" />
       </div>
     </div>
   </div>
+  <div class= "container">
+    <div class="row">
+      <div class="skills col-6">
+      <div class="skills-wrap">
+        <h1> Skills</h1>
+        <div class="html">
+          <progress value="60" max="100">60%</progress>
+          <label>HTML/CSS</label>
+        </div>
+        <div class="wordpress">
+          <progress value="30" max="100">30%</progress>
+          <label>Wordpress</label>
+        </div>
+        <div class="javascript">
+        <progress value="20" max="100">20%</progress>
+        <label>Javascript</label>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
 </div>
-
+</div>
 
 
 <!-- Bootstrap JavaScript -->

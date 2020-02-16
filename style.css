@@ -5,7 +5,7 @@
 html, body,{
   width: 100vw;
 }
-p,nav {
+p,nav, h2, h3, h4, label {
   font-family: 'Poppins', sans-serif;
 }
 
@@ -32,40 +32,53 @@ h1 {
 /* Changes the Navbar */
 nav {
   width: 100vw;
-  height: 23vh;
+  height: 20vh;
   padding: 5vh 0vw;
   background-color: #fff;
   max-width: 100%;
+
+}
+.navbar-nav {
+  display: inline-block;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 3rem;
+  color: #666;
+
+
 }
 
-.nav-wrap {
-  z-index: 1030;
-  margin-top: 10vh;
-}
-
-nav a{
-  padding: 0vw 4vw 0vw 4vw;
-  font-size: 3em;
-  color: #777;
-  font-weight: lighter;
-}
-
-
-.name {
-  height: 100%;
-}
-
-
-.name a{
-  text-align: right;
+.navbar-brand {
   font-family: 'Pacifico', cursive;
-  font-size: 4em;
-  font-weight: bold;
-  color: #333;
-  background-color: #fff;
-  float: right;
-  }
+  font-size: 4rem;
+  color: #666;
+}
 
+.navbar-expand-lg .navbar-nav .nav-link{
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 3rem;
+  color: #666;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+  color: #000;
+  transition: 1s;
+}
+
+.nav-item{
+  display: inline-block;
+  margin: 0 2rem;
+}
+
+.nav-item a {
+  color: #666;
+}
+
+ .nav-wrap {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 a{
   text-decoration-line: none;
@@ -80,10 +93,13 @@ a:hover{
 
 /* === WORK ==== */
 /* Changes Row Sizes */
+
+#work {
+  margin-top: 20vh;
+}
 .box {
   width: 100vw;
   height: 38vh;
-  /* box-shadow: 1.5vh .5vh rgba(114, 140, 168, 0.5); */
 }
 
 /* Creates Boxes Within Work Row */
@@ -119,10 +135,16 @@ a:hover{
   height: 70vh;
   margin-top: 20vh;
   display: inline-block;
+  margin-bottom: 10vh;
+}
+
+/* About Bio */
+.about-bio {
+  margin-left: 3.3333%;
 }
 
 /* About Image */
-.col-6 img{
+.about-image img{
   width: 90%;
   align-self: center;
 }
@@ -131,12 +153,57 @@ a:hover{
   position: relative;
   overflow: hidden;
   padding: 0;
-  height: 100vh;
+  height: 50vh;
+  border: .5vh solid #000;
+  align-content: center;
+  padding: .5vh .5vw;
 }
 
 .bottom {
   position: relative;
-  bottom: 30%;
-  left: 9%;
+  margin-left: 20%;
+}
 
+/* Skills */
+.skills {
+  background-color: white;
+  margin:auto;
+  height: 50vh;
+  align-content: center;
+  box-shadow: 5px 10px #888888;
+}
+
+.skills h1 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.skills-wrap{
+  text-align: center;
+  margin-top: 5%;
+}
+
+.skills-wrap h1 {
+  margin-bottom: 10%;
+}
+
+/* Sets Progress Bar to Original Appearance */
+progress[value] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 70%;
+  margin: auto;
+}
+
+/* Styles Progress Bar */
+progress[value]::-webkit-progress-bar {
+  background-color: #999;
+  border-radius: .45vh;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+/* Styles Progress Bar Value */
+
+progress[value]::-webkit-progress-value {
+  background-color: #000;
 }
