@@ -170,7 +170,7 @@ a:hover{
   margin:auto;
   height: 50vh;
   align-content: center;
-  box-shadow: 5px 10px #888888;
+  /* box-shadow: 5px 10px #888888; */
 }
 
 .skills h1 {
@@ -206,4 +206,29 @@ progress[value]::-webkit-progress-bar {
 
 progress[value]::-webkit-progress-value {
   background-color: #000;
+}
+
+/* Preferences */
+
+.pref {
+  display: inline-block;
+}
+
+/* Builds Color-Boxes for Preferences */
+.colorBox {
+  width: 3vw;
+  height: 5vh;
+  display: inline-block;
+  border: 1px solid black;
+}
+.pink {
+  background-color: #D291BC;
+}
+
+.nude {
+  background-color: #FFDFD3;
+}
+
+.blue {
+  background-color: #9CC0E7;
 }
